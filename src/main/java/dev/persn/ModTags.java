@@ -1,14 +1,14 @@
 package dev.persn;
 
-import net.minecraft.block.Block;
-import net.minecraft.registry.RegistryKeys;
-import net.minecraft.registry.tag.TagKey;
-import net.minecraft.util.Identifier;
+import net.minecraft.core.registries.Registries;
+import net.minecraft.resources.Identifier;
+import net.minecraft.tags.TagKey;
+import net.minecraft.world.level.block.Block;
 
 public final class ModTags {
-    public static final TagKey<Block> SILK_TOUCH_ALTERED_BREAK_SOUND = TagKey.of(
-        RegistryKeys.BLOCK,
-        Identifier.of(WDMGSLT.MOD_ID, "silk_touch_altered_break_sound")
+    public static final TagKey<Block> SILK_TOUCH_ALTERED_BREAK_SOUND = TagKey.create(
+        Registries.BLOCK,
+        Identifier.fromNamespaceAndPath(WDMGSLT.MOD_ID, "silk_touch_altered_break_sound")
     );
 
     private ModTags() {

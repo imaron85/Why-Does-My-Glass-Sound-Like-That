@@ -1,5 +1,11 @@
 # Why Does My Glass Sound Like That
 
+> **Unofficial Minecraft 26.3 port** (branch `26.3`) of Why Does My Glass Sound Like That by spjoes / IAmThePerson,
+> https://github.com/spjoes/Why-Does-My-Glass-Sound-Like-That (CC0-1.0). Not affiliated with or endorsed by the original author.
+> Port changes: Mojang names / no-remap Loom / Java 25; glass, tinted glass, stained glass and all panes are matched on
+> the client, so the mod also works on vanilla servers (which never send the mod's block tag); the sound event is played
+> by id from `sounds.json` instead of being registered in the sound event registry.
+
 Over 3 years ago now, Dinnerbone tweeted out that the glass sound should change when you use a Silk Touch pickaxe so the audio feedback doesn't make you think, quote, ["crap, wrong tool"](https://twitter.com/Dinnerbone/status/1434546463137308675).
 
 This client-side Fabric mod does exactly that. When you break glass with a Silk Touch pickaxe, you will now be greeted to a new sound that doesn't break your ear drums!
@@ -12,10 +18,10 @@ This client-side Fabric mod does exactly that. When you break glass with a Silk 
 
 ## Compatibility
 
-- Minecraft Java Edition `1.21.1` to `1.21.11`
-- Fabric Loader `0.17.3+`
+- Minecraft Java Edition `26.3`
+- Fabric Loader `0.19.3+` (or Quilt Loader `0.30.2-beta.1+`)
 - Fabric API
-- Java `21+`
+- Java `25+`
 
 ## Installation
 
