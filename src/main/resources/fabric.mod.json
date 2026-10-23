@@ -3,13 +3,14 @@
 	"id": "wdmgslt",
 	"version": "${version}",
 	"name": "Why Does My Glass Sound Like That",
-	"description": "This mod stops the glass sound from breaking your eardrums when you have silk touch. Unofficial Minecraft 26.3 port of the mod by spjoes (IAmThePerson).",
+	"description": "This mod stops the glass sound from breaking your eardrums when you have silk touch. Unofficial Minecraft 26.3 build by imaron85, not made or supported by spjoes (IAmThePerson). Report problems at https://github.com/imaron85/Why-Does-My-Glass-Sound-Like-That/issues.",
 	"authors": [
 		"IAmThePerson"
 	],
 	"contact": {
-		"homepage": "https://persn.dev/",
-		"sources": "https://github.com/imaron85/Why-Does-My-Glass-Sound-Like-That"
+		"homepage": "https://github.com/imaron85/Why-Does-My-Glass-Sound-Like-That",
+		"sources": "https://github.com/imaron85/Why-Does-My-Glass-Sound-Like-That",
+		"issues": "https://github.com/imaron85/Why-Does-My-Glass-Sound-Like-That/issues"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/wdmgslt/icon.png",
